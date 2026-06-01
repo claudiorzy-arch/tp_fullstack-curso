@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+        <img src="./assets/imagenes/logo.png" alt="logo">
+        <h2>Character Counter</h2>
+        </div>
+        <button>⚙</button>
+    </header>
+    <main>
+    <section class="hero">
+        <h1>Analyze you text <br> real-time</h1> 
+    </section> 
+    <section class="text_area">
+        <textarea>Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every interaction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly.</textarea>
+    </section>
+    <section class="options">
+        <div class="controles_izq">
+            <label>
+                <input type="checkbox" name="Exclude_Spaces">
+                <span>Exclude Spaces</span>
+            </label>
+            <label>
+                <input type="checkbox" name="set_charcter_limit">
+                <span>Set Character Limit</span>
+            </label>
+        </div>
+        <div class="time">  
+            <p>
+             Approx. reading time: &lt;1 minute
+            </p>
+        </div>      
+    </section>
+    <section class="stats">
+        <div class="card">
+            <p class="total">278</p>
+            <p class="definicion">Total characters</p> 
+        </div>
+        <div class="card">
+            <p class="total">39</p>
+            <p class="definicion">Word Count</p>
+        </div>
+        <div class="card">
+            <p class="total">04</p>
+            <p class="definicion">Sentence Count</p>
+        </div>
+    </section>
+    <section class="density">
+        <h3>Letter Density</h3>
+        <div class="density_row">
+            <p class="letter">E</p>
+            <div class="bar">
+            <div class="fill fill-e"></div>
+            </div>
+            <p class="number">40 (16.06%)</p>
+        </div>
+
+        <div class="density_row">
+            <p class="letter">I</p>
+            <div class="bar">
+            <div class="fill fill-i"></div>
+            </div>
+            <p class="number">29 (11.65%)</p>
+        </div>
+        <div class="density_row">
+            <p class="letter">T</p>
+            <div class="bar">
+            <div class="fill fill-t"></div>
+            </div>
+            <p class="number">28 (11.24%)</p>
+        </div>
+        <div class="density_row">
+            <p class="letter">O</p>
+            <div class="bar">
+            <div class="fill fill-o"></div>
+            </div>
+            <p class="number">22 (8.84%)</p>
+        </div>
+        <div class="density_row">
+            <p class="letter">N</p>
+            <div class="bar">
+            <div class="fill fill-n"></div>
+            </div>
+            <p class="number">21 (8.43%)</p>
+        </div>
+    </section>
+    <section class="see_more">
+        <button>see more ▼</button>
+    </section>
+    </main>
+</body>
+</html>

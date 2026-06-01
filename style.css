@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
+    color: var(--texto_principal);
+}
+/* agregar en el root los colores dados */
+:root {
+  /* fondo principal */
+  --fondo: #12131A;
+  /* Fondo de cards */
+  --cards:#1C1F2A;
+  /* Texto principal */
+  --texto_principal: #F2F2F7;
+  /* Texto secundario */
+  --Texto_secundario: #B4B7C9;
+  /* Card violeta */
+  --Card_violeta: #C99DFF;
+  /* Card naranja */
+  --Card_naranja: #FFB21E;
+  /* Card coral */
+  --Card_coral: #FF8A65;
+  /* Barras de progreso */
+  --Barras_de_progreso: #D19BFF;
+  /* Bordes sutiles */
+  --Bordes_sutiles: #2A2D3A;
+  }
+/* poner a body de otro color para diferenciar */
+body{
+    background-color:var(--fondo);
+}
+main{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header h2{
+    color: var(--texto_principal);
+}
+
+header img{
+    height: 40px;
+}
+
+header button{
+    background-color: var(--cards);
+    color: var(--texto_principal);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero h1{
+    color: var(--texto_principal);
+    font-size: 45px;
+}
+
+.text_area{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 850px;
+}
+
+.text_area textarea{
+    width: 800px;
+    height: 200px;
+    background-color: var(--cards);
+    color: var(--Texto_secundario);
+    border: 1px solid var(--Bordes_sutiles);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 18px;
+    resize: none;}
+   
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 40px;
+    padding: 10px;
+    }
+
+.options input{
+    cursor: pointer;
+}
+.controles_izq{
+    display: flex;
+    gap: 20px;
+}
+
+.controles_izq label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Texto_secundario);
+}
+.time{
+    color: var(--Texto_secundario);
+}
+
+.stats{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card{
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 120px;
+}
+
+
+
+.card:nth-child(1){
+    background-color: var(--Card_violeta);
+    background-image: url("./assets/imagenes/fondo_violeta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.card:nth-child(2){
+    background-color: var(--Card_coral);
+    background-image: url("./assets/imagenes/fondo_naraja.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.card:nth-child(3){
+    background-color: var(--Card_naranja);
+    background-image: url("./assets/imagenes/fondoamarillo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.total{
+    font-size: 3rem;
+    /* hace el numero grande */
+    font-weight: bold;
+    /* pone negrita */
+}
+.definicion{
+    /*  */
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.density{
+    margin-top: 40px;
+
+}
+
+.density h3{
+    margin-bottom: 20px;
+
+}
+
+
+.density_row{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.letter{
+    width: 20px;
+    font-weight: bold;
+}
+
+.bar{
+    flex: 1;
+    height: 10px;
+    background-color: var(--Bordes_sutiles);
+    border-radius: 999px;
+}
+
+.fill{
+    height: 100%;
+    background-color: var(--Barras_de_progreso);
+    border-radius: 999px;
+}
+
+.fill-e{
+    width: 16.06%;
+}
+
+.fill-i{
+    width: 11.65%;
+}
+
+.fill-t{
+    width: 11.24%;
+}
+
+.fill-o{
+    width: 8.84%;
+}
+
+.fill-n{
+    width: 8.43%;
+}
+.number{
+    width: 100px;
+    text-align: right;
+    color: var(--Texto_secundario);
+}
+.see_more{
+    margin-top: 20px;
+}
+
+.see_more button{
+    background: none;
+    border: none;
+    color: var(--Texto_secundario);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.see_more button:hover{
+    color: var(--texto_principal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
