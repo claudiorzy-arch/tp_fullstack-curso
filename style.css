@@ -245,7 +245,30 @@ header button{
     color: var(--texto_principal);
 }
 
+@media (max-width: 768px){
 
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .options{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+
+    .text_area textarea{
+        width: 100%;
+    }
+
+    .number{
+        width: 80px;
+    }
+}
 
 
 
